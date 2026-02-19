@@ -23,7 +23,7 @@ during decoding. All logic is contained in a single file for clarity.
 - Manual dot‑product attention implementation
 - Autoregressive Decoder with attention applied at each timestep
 - Clear intermediate printouts for learning (hidden states, scores, weights)
-- Fully self‑contained in: assignment1.py
+- Fully self‑contained in: seq2seq.py
 
 ---------------------------------------------------------------------
 
@@ -42,14 +42,14 @@ if __name__ == "__main__":
 ```
 This ensures:
 - Importing the module does **not** activate debug mode  
-- Running `python assignment1.py` **does** activate debug mode  
+- Running `python seq2seq.py` **does** activate debug mode  
 - The rest of the code can check the global DEBUG variable safely 
 
 ---------------------------------------------------------------------
 
 ## File Structure
 
-assignment1.py  
+seq2seq.py  
 README.md
 
 ---------------------------------------------------------------------
@@ -58,7 +58,7 @@ README.md
 
 Run the file directly:
 
-python assignment1.py
+python seq2seq.py
 
 This executes a forward pass and displays internal tensor operations
 (step‑by‑step shapes, attention weights, and context vector calculations).
