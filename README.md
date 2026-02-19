@@ -90,5 +90,5 @@ This project is ideal for:
 
 ## License
 
-This project is intended for educational and research purposes. Feel free
-to extend or adapt it.
+This project is provided for educational and research purposes. You may modify,
+extend, or adapt it. See `LICENSE` for details (MIT recommended).
